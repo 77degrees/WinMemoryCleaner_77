@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Globalization;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.Serialization.Json;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// Localizer

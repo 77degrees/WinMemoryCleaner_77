@@ -1,11 +1,4 @@
-﻿using Microsoft.Win32;
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Windows.Input;
-
-#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
 namespace WinMemoryCleaner
 {

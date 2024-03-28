@@ -1,11 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Drawing.Text;
-using System.Reflection;
-using System.Windows.Forms;
-using System.Windows.Input;
-using Application = System.Windows.Application;
+﻿using Application = System.Windows.Application;
 using Cursors = System.Windows.Input.Cursors;
 
 namespace WinMemoryCleaner

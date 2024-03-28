@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
-using Application = System.Windows.Application;
+﻿using Application = System.Windows.Application;
 using SolidColorBrush = System.Windows.Media.SolidColorBrush;
 
 namespace WinMemoryCleaner

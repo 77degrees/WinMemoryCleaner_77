@@ -93,7 +93,7 @@ namespace WinMemoryCleaner
 
                 try
                 {
-  
+
                 }
                 catch
                 {
@@ -111,7 +111,7 @@ namespace WinMemoryCleaner
             var _serviceProvider = new ServiceCollection();
 
             _serviceProvider
-                .AddSingleton<INotificationManager,NotificationManager>()
+                .AddSingleton<INotificationManager, NotificationManager>()
                 .AddSingleton<IComputerService, ComputerService>()
                 .AddSingleton<IHotKeyService, HotKeyService>()
                 .AddSingleton<MainWindowViewModel>()
@@ -153,7 +153,7 @@ namespace WinMemoryCleaner
             }
         }
 
-       
+
         /// <summary>
         /// Raises the <see cref="E:System.Windows.Application.Startup" /> event.
         /// </summary>
@@ -236,7 +236,7 @@ namespace WinMemoryCleaner
                     // Run On Startup
                     RunOnStartup(Settings.RunOnStartup);
 
-                   // var mainWindow = services.GetRequiredService<MainWindow>();
+                    // var mainWindow = services.GetRequiredService<MainWindow>();
                     var newMainWindow = services.GetRequiredService<MainWindow>();
                     App.Current.MainWindow = newMainWindow;
                     if (!Settings.StartMinimized)

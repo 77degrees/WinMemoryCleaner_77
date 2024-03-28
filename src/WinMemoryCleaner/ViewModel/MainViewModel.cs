@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Reflection;
-using System.Threading;
-using System.Windows.Input;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// Main View Model

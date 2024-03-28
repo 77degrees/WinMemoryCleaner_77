@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows.Input;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// IHotKeyService

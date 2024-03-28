@@ -1,8 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Windows.Data;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// Enum to Boolean Converter

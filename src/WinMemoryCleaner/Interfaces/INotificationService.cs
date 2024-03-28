@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// INotificationService

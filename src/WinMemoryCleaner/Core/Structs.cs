@@ -1,7 +1,4 @@
-﻿using System;
-using System.Runtime.InteropServices;
-
-#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
 namespace WinMemoryCleaner
 {

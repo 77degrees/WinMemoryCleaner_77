@@ -3,8 +3,6 @@
 // Project-level suppressions either have no target or are given
 // a specific target and scoped to a namespace, type, member, etc.
 
-using System.Diagnostics.CodeAnalysis;
-
 [assembly: SuppressMessage("Design", "CA1030:Use events where appropriate", Justification = "Ignored", Scope = "type", Target = "~T:WinMemoryCleaner.ObservableObject")]
 [assembly: SuppressMessage("Design", "CA1031:Do not catch general exception types", Justification = "Ignored")]
 [assembly: SuppressMessage("Design", "CA1034:Nested types should not be visible", Justification = "Ignored")]

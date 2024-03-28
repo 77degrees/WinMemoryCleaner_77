@@ -1,16 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.Windows.Threading;
 using WinMemoryCleaner;
 using WinMemoryCleaner3.ViewModel;
@@ -24,7 +14,7 @@ namespace WinMemoryCleaner3.View
     {
         MainWindowViewModel VM { get; set; }
         DispatcherTimer dispatcherTimer;
-        public MainWindow( MainWindowViewModel vm)
+        public MainWindow(MainWindowViewModel vm)
         {
             VM = vm;
             this.DataContext = vm;
@@ -63,7 +53,7 @@ namespace WinMemoryCleaner3.View
 
         private void NotifyIcon_LeftDoubleClick(Wpf.Ui.Tray.Controls.NotifyIcon sender, RoutedEventArgs e)
         {
-            if (Visibility == Visibility.Hidden|| Visibility == Visibility.Collapsed)
+            if (Visibility == Visibility.Hidden || Visibility == Visibility.Collapsed)
             {
                 Visibility = Visibility.Visible;
             }
@@ -80,7 +70,7 @@ namespace WinMemoryCleaner3.View
                 e.Cancel = true;
                 Visibility = Visibility.Collapsed;
             }
-            
+
         }
     }
 }

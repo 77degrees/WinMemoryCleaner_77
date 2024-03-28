@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using System.Windows;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// View Model

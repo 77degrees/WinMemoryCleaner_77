@@ -1,8 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Windows.Data;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// Value converter that applies NOT operator to a <see cref="bool" /> value.

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-
-namespace WinMemoryCleaner
+﻿namespace WinMemoryCleaner
 {
     /// <summary>
     /// Represents the converter that converts Boolean values to and from &lt;see cref="T:System.Windows.Visibility" /&gt; enumeration values.
